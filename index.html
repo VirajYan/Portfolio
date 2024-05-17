@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="'viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script
+    src="https://kit.fontawesome.com/14515d1a56.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <!-- Home start -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i
+              class="fas fa-regular fa-rectangle-xmark"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><span class="one">Front-end </span>Developer</p>
+          <h1>
+            Hi, I am <span>Viraj</span><br />
+            From Pune
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Home end -->
+
+    <!-- About start -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/IMG_2828-01-01-01.jpeg (2).jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              I'm Viraj, a Pune-based Computer Engineering student mastering
+              Data Structures and Algorithms (DSA) and web development.
+              Alongside my academic pursuits, I channel my passion into editing
+              college magazines, honing both technical and editorial skills.
+              Pune's vibrant atmosphere fuels my exploration of technology and
+              creativity, creating a dynamic backdrop for my journey.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-end Developement</span><br />Designing Web Apps
+                  Design
+                </li>
+                <li><span>Editor</span><br />Editing College Magazines</li>
+                <li>
+                  <span>DSA</span><br />Solving Data Structures and Algorithms
+                  Problems
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span
+                    >April 2021 - June 2021 Intern @ Valethi Technologies
+                    LLP</span
+                  ><br />IT Operations
+                </li>
+                <li>
+                  <span>January 2024 Intern @ CodSoft</span><br />Web
+                  Developement Intern
+                </li>
+                <li>
+                  <span>November 2022 - June 2025 Editor @ NBNSSOE</span
+                  ><br />College Magazine Editor
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>BE : 2025' NBNSSOE</span><br />8 CGPA</li>
+                <li>
+                  <span>DIPLOMA : 2022' MIT Polytechnic</span><br />89.31%
+                </li>
+                <li><span>SSC : 2019' MVEM</span><br />85.6%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Start -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Transforming visions into compelling digital experiences, my web
+              design services blend creativity with functionality, delivering
+              aesthetically pleasing and user-centric websites that elevate
+              brands and engage audiences effectively.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-sliders"></i>
+            <h2>Editing</h2>
+            <p>
+              Specializing in magazine editing, I bring precision and creativity
+              to enhance content flow and readability. Open to editing a variety
+              of genres, I ensure every piece is polished to perfection,
+              delivering a seamless and captivating reading experience.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services End -->
+    <!-- Portfolio Start -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>This app lets u connect to you to the world</p>
+              <a href="#">
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>This app lets u connect to you to the world</p>
+              <a href="#">
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>This app lets u connect to you to the world</p>
+              <a href="#">
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- Portfolio End -->
+
+    <!-- COntact Start -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>
+            <i class="fa-regular fa-paper-plane"></i>Contact@virrajyan@gmail.com
+          </p>
+          <p><i class="fa-solid fa-square-phone"></i>9922061072</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="images/resume.png" download class="btn btn2"
+            >Dowlnoad Resume</a
+          >
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"> </span>
+        </div>
+      </div>
+      </div>
+      <div class="copyright">
+        <p>
+          <i class="fa-solid fa-copyright"></i> Copyright @ Viraj. Made with
+          <i class="fa-solid fa-heart"></i> lots of efforts
+          <i class="fa-solid fa-lightbulb"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact end -->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwkx26G7vxi2zZeCsZ7sD731k9PV13SMvFIBUCPDC2n0VbHKlkcOJVHcYVAGeL9ZsM/exec";
+      const form = document.forms["submit-to-google-sheet"]
+      const msg=document.getElementById("msg")
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML="Message sent successully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
